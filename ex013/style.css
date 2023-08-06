@@ -1,0 +1,14 @@
+div:hover{
+    background-color: aquamarine;
+
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: aqua;
+    background-color: bisque;
+}
